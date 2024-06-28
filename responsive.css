@@ -36,9 +36,14 @@
         flex-direction: column;
         align-items: center;
         transition: all .3s ease;
-        background: rgba(0, 55, 255, 0.311);
+        background: #6c92ff;
         border-bottom-left-radius: 1.5rem;
         border-top-left-radius: 1.5rem;
+    }
+
+    .header{
+        background: transparent;
+        backdrop-filter: none;
     }
 
     .navbar a{
@@ -55,13 +60,16 @@
     .home{
         background-image: url(Assets/bg-3.jpg);
         background-size: cover;
+        background-position: center;
     }
 
     .profile{
-        width: 80vw;
-        height: 90vh;
+        width: 70vw;
+        height: 80vh;
         flex-direction: column;
         gap: 2rem;
+        background: rgba(145, 160, 255, 0.295);
+        backdrop-filter: blur(.8rem);
     }
 
     .profile h2{
@@ -72,7 +80,12 @@
 
     .profile p{
         font-size: 1.4rem;
+        padding: 2rem;
+        margin: 0 0 7%;
+    }
 
+    .btn{
+        margin-left: 2rem;
     }
 
     .contact-content{
@@ -104,16 +117,22 @@
 
 @media (max-width: 617px) {
     html{
-        font-size: 45%;
+        font-size: 47%;
     }
 
     .home{
         background-image: url(Assets/bg-4.jpg);
         background-size: cover;
+        background-position: center;
     }
 
     .profile{
-        height: 80vh;
+        height: 75vh;
+    }
+
+    .profile img{
+        width: 35rem;
+        border: 1.5rem solid var(--bg-color);
     }
 
 }
