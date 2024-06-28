@@ -1,0 +1,119 @@
+
+@media (max-width: 1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 991px) {
+    .header{
+        padding: 2rem 3%;
+    }
+
+    section{
+        padding: 10rem 3%;
+    }
+
+    .footer{
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu{
+        display: block;
+        z-index: 1000;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        width: 6rem;
+        min-height: auto;
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all .3s ease;
+        background: rgba(0, 55, 255, 0.311);
+        border-bottom-left-radius: 1.5rem;
+        border-top-left-radius: 1.5rem;
+    }
+
+    .navbar a{
+        display: block;
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .navbar a::after{
+        display: none;
+    }
+
+
+    .home{
+        background-image: url(Assets/bg-3.jpg);
+        background-size: cover;
+    }
+
+    .profile{
+        width: 80vw;
+        height: 90vh;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .profile h2{
+        font-size: 4rem;
+        line-height: 120%;
+        text-align: center;
+    }
+
+    .profile p{
+        font-size: 1.4rem;
+
+    }
+
+    .contact-content{
+        width: 80%;
+    }
+
+    #down-arr{
+        display: none;
+    }
+
+    .contact-left input{
+        width: 100%;
+    }
+
+    .contact-left textarea{
+        margin-top: 1.3rem;
+        width: 100%;
+    }
+
+    .show{
+        right: -100%;
+    }
+
+    .navbar a:nth-child(5){
+        display: none;
+    }
+
+}
+
+@media (max-width: 617px) {
+    html{
+        font-size: 45%;
+    }
+
+    .home{
+        background-image: url(Assets/bg-4.jpg);
+        background-size: cover;
+    }
+
+    .profile{
+        height: 80vh;
+    }
+
+}
