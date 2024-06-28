@@ -129,6 +129,13 @@
     .profile{
         height: 75vh;
         width: 80vw;
+        border-top-left-radius: 10rem;
+        border-bottom-right-radius: 10rem;
+    }
+
+    .profile h2{
+        padding: 1rem;
+        font-size: 3.5rem;
     }
 
     .profile img{
