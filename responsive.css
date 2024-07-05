@@ -71,11 +71,15 @@
         background: rgba(145, 160, 255, 0.295);
         backdrop-filter: blur(.8rem);
     }
+    
+    .profile img{
+        margin-left: 0;
+    }
 
     .profile h2{
         font-size: 4rem;
         line-height: 120%;
-        text-align: center;
+        margin-right: 0;
     }
 
     .profile p{
@@ -85,11 +89,17 @@
     }
 
     .btn{
-        margin-left: 2rem;
+        margin-left: 12rem;
+    }
+
+    .profile-info{
+        margin-right: 0;
     }
 
     .contact-content{
         width: 80%;
+        border-top-right-radius: 8rem;
+        border-bottom-left-radius: 8rem;
     }
 
     #down-arr{
@@ -132,15 +142,20 @@
         border-top-left-radius: 10rem;
         border-bottom-right-radius: 10rem;
     }
-
+    
     .profile h2{
         padding: 1rem;
         font-size: 3.5rem;
     }
-
+    
     .profile img{
         width: 35rem;
         border: 1.5rem solid var(--bg-color);
+    }
+
+    .contact-content{
+        border-top-right-radius: 7rem;
+        border-bottom-left-radius: 7rem;
     }
 
 }

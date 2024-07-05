@@ -33,8 +33,8 @@ section{
     padding: 10rem 9% 2rem;
 }
 
-/* Header Section Code */
 
+/* Header Section Code */
 
 .header{
     position: fixed;
@@ -143,6 +143,7 @@ section{
     transition: .3s ease;
 }
 
+
 /* Home Section Code  */
 
 .home{
@@ -167,14 +168,22 @@ section{
 }
 
 .profile img{
+    margin-left: 5rem;
     width: 40rem;
     border-radius: 50%;
     border: 2rem solid var(--bg-color);
 }
 
+.profile-info{
+    z-index: -1;
+    margin-right: 3rem;
+}
+
 .profile h2{
     font-size: 5rem;
     line-height: 130%;
+    text-align: center;
+    margin-right: 5rem;
 }
 
 span{
@@ -182,8 +191,9 @@ span{
 }
 
 .profile p{
-    font-size: 1.7rem;
-    margin: 5% 0 10%;
+    font-size: 1.55rem;
+    margin-bottom: 5%;
+    padding: 2rem 2rem 2rem 0;
 }
 
 .btn{
@@ -231,8 +241,8 @@ span{
     }
 }
 
-/* Project Section Code  */
 
+/* Project Section Code  */
 
 .project{
     background-color: var(--bg-color);
@@ -280,12 +290,12 @@ span{
     color: var(--bg-color);
 }
 
-#basic{
+#intermediate{
     background-color: var(--trd-bg-color);
     color: var(--bg-color);
 }
 
-#intermediate, #advanced{
+#basic, #advanced{
     color: var(--snd-bg-color);
 }
 
@@ -303,6 +313,9 @@ span{
 }
 
 #intermediate-cards{
+    display: initial;
+}
+#basic-cards{
     display: none;
 }
 
@@ -366,8 +379,8 @@ span{
     margin-left: 2rem;
 }
 
-/* Skill Section Code */
 
+/* Skill Section Code */
 
 .skill-content{
     height: 100%;
@@ -436,8 +449,8 @@ span{
     background-color: rgba(152, 255, 174, 0.592);
 }
 
-/* Contact Section Code  */
 
+/* Contact Section Code  */
 
 .contact{
     background: linear-gradient(180deg, #a6bcfa86, #fff);
@@ -529,8 +542,8 @@ span{
     color: #00000081;
 }
 
-/* Footer Section Code  */
 
+/* Footer Section Code  */
 
 .footer{
     width: 100%;
