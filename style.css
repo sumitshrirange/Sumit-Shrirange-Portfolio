@@ -175,7 +175,6 @@ section{
 }
 
 .profile-info{
-    z-index: -1;
     margin-right: 3rem;
 }
 
@@ -444,7 +443,7 @@ span{
     background-color: rgba(152, 195, 255, 0.592);
 }
 
-.css, .gsap{
+.html, .css, .gsap{
     color: rgb(0, 154, 51);
     background-color: rgba(152, 255, 174, 0.592);
 }
