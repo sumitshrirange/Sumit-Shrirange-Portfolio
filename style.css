@@ -168,6 +168,7 @@ section{
 }
 
 .profile img{
+    transform: rotate(1deg);
     margin-left: 5rem;
     width: 40rem;
     border-radius: 50%;
